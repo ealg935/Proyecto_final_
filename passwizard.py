@@ -11,7 +11,7 @@ def contra(longitud):
 
 
 try:
-    longitud_u = int(input("Ingresa un numero de caracteres: "))
+    longitud_u = int(input("Ingresa un numero de caracteres para tu contraseña(Maximo 70 caracteres): "))
     if longitud_u <= 0 or longitud_u > 70:
         print("Longitud no válida")
         longitud_u = 12
